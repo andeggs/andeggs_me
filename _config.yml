@@ -1,0 +1,16 @@
+title: Francis Bacon
+description: Coaxing important organisations into the future
+url: "https://www.andeggs.me"
+baseurl: ""
+
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+minima:
+  skin: auto   # follows the visitor's light/dark preference
+
+exclude: [README.md, .devcontainer]
