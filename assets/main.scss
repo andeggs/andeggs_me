@@ -17,6 +17,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 $base-font-family: "Faustina", Georgia, serif;
 
 /* 2. Tell Minima to use it (must come BEFORE the import) */
@@ -26,3 +34,11 @@ $base-line-height: 1.6;
 
 /* 3. Load Minima */
 @import "minima";
+
+/* Overrides go AFTER the import */
+.site-title,
+.site-title:visited {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
