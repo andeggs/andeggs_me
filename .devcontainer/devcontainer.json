@@ -1,0 +1,6 @@
+{
+  "name": "Jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "forwardPorts": [4000, 35729],
+  "postCreateCommand": "bundle install"
+}
