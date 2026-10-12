@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/Inter-Variable.woff2") format("woff2");
+  src: url("/assets/fonts/Inter-VariableFont.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -36,9 +36,10 @@ $base-line-height: 1.6;
 @import "minima";
 
 /* Overrides go AFTER the import */
+.page-link,
 .site-title,
 .site-title:visited {
   font-family: "Inter", system-ui, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: -0.02em;
 }
