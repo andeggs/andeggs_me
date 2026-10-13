@@ -46,6 +46,8 @@ This is a change for Finance teams too. They transition from a centralised role 
 
 ### **The power of forecasting**
 
+There's one final benefit. 
+
 When service expenditure becomes clear, the natural next step is to try to forecast how it might change over time.
 
 Do we expect costs to go up or down \- and if so by how much? What are the factors driving the costs and what power do we have over them? If the service is fee-paying then do we expect fee income to change in a similar direction or deviate?
