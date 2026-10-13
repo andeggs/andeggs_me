@@ -28,4 +28,4 @@ See what I’m reading on [Goodreads](https://goodreads.com/user/show/3887096-fr
 
 Inspect my dodgy code on [Github](https://github.com/andeggs)
 
-Message me on [LinkedIn](http://linkedin.com/in/baconfrancis/)
+Message me on [LinkedIn](http://linkedin.com/in/baconfrancis/) or [Bluesky](https://bsky.app/profile/andeggs.bsky.social).

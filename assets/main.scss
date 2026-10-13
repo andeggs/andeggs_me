@@ -4,11 +4,12 @@
 /* 1. Load the font files */
 @font-face {
   font-family: "Faustina";
-  src: url("/assets/fonts/Faustina-VariableFont_wght.woff2") format("woff2");
-  font-weight: 300 800;
-  font-style: normal;
-  font-display: swap;
+  src:url("/assets/fonts/Faustina-VariableFont_wght.woff2") format("woff2");
+  font-weight:300 800;
+  font-style:normal;
+  font-display:swap;
 }
+
 @font-face {
   font-family: "Faustina";
   src: url("/assets/fonts/Faustina-Italic-VariableFont_wght.woff2") format("woff2");
@@ -25,10 +26,8 @@
   font-display: swap;
 }
 
-$base-font-family: "Faustina", Georgia, serif;
-
 /* 2. Tell Minima to use it (must come BEFORE the import) */
-$base-font-family: "Source Serif 4", Georgia, serif;
+$base-font-family: "Faustina", Georgia, serif;
 $base-font-size: 18px;
 $base-line-height: 1.6;
 
