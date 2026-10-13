@@ -56,4 +56,4 @@ For the service owner, this opens up an important strategic space that might not
 
 For fee-paying services with dynamic demand, forecasting is essential for planning capacity (or being able to quickly increase it), fee levels and so on. This only makes sense when done for the whole service.
 
-![Illustrative chart of service costs](/assets/images/2026-10-13-forecast-chart.png){: .profile-image}
+![Illustrative chart of service costs](/assets/images/2026-10-13-forecast-chart.png)
