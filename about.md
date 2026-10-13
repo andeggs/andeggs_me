@@ -3,10 +3,10 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![Mountains](/assets/images/profile.webp)
+![Photo of Francis](/assets/images/profile.webp){: .profile-image}
 Hi
 
-I’m Francis Bacon (not [this Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon) or [that Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon_\(artist\))).
+I’m Francis Bacon (not [this Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon) or [that Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon_(artist))).
 
 I help organisations become more effective by delivering better services. I enjoy bringing my service, product and technology expertise to help people find a clear path through complexity.
 

@@ -43,3 +43,12 @@ $base-line-height: 1.6;
   font-weight: 300;
   letter-spacing: -0.02em;
 }
+
+.profile-image {
+  float: right;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 2rem;
+}
