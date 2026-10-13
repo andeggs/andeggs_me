@@ -46,9 +46,11 @@ $base-line-height: 1.6;
 
 .profile-image {
   float: right;
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 2rem;
 }
+
+.footer-col-wrapper { display: none; }

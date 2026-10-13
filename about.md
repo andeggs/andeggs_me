@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![Photo of Francis](/assets/images/profile.webp){: .profile-image}
+![Photo of Francis](/assets/images/profile-centred.jpeg){: .profile-image}
 Hi
 
 I’m Francis Bacon (not [this Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon) or [that Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon_(artist))).
