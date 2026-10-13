@@ -1,16 +1,45 @@
 # andeggs.me
 
-Source for [www.andeggs.me](https://www.andeggs.me), the personal site of Francis Bacon. It's a [Jekyll](https://jekyllrb.com/) site using the [Minima](https://github.com/jekyll/minima) theme, built and hosted by GitHub Pages.
+Source for [www.andeggs.me](https://www.andeggs.me), the personal site of Francis Bacon. It's a [Jekyll](https://jekyllrb.com/) site using the [Minima](https://github.com/jekyll/minima) theme (version 2.5), with its own fonts and styling, built and hosted by GitHub Pages.
 
 ## Layout
 
 | Path | What it is |
 | --- | --- |
-| `_config.yml` | Site title, description, theme and plugins |
-| `index.md` | Home page (lists posts) |
-| `about.md` | About page, served at `/about/` |
+| `_config.yml` | Site title, URL, theme and plugins |
+| `index.md` | Home page: a header image, then the list of posts |
+| `about.md` | About page with profile photo, served at `/about/` |
 | `_posts/` | Blog posts, named `YYYY-MM-DD-title.md` |
+| `assets/main.scss` | Site stylesheet: loads the fonts, sets Minima's variables and adds custom styles |
+| `assets/fonts/` | Self-hosted web fonts (Faustina, Inter) |
+| `assets/images/` | Images used on the pages |
+| `CNAME` | Custom domain (`www.andeggs.me`) for GitHub Pages |
+| `Gemfile`, `Gemfile.lock` | Ruby gems, pinned to the versions GitHub Pages uses |
 | `.devcontainer/` | Codespaces / dev container setup |
+
+## Writing a post
+
+Add a Markdown file to `_posts/` named `YYYY-MM-DD-title.md`, starting with:
+
+```markdown
+---
+layout: post
+title: "Your title"
+---
+```
+
+Posts with a future date aren't published until that date.
+
+## Changing the styling
+
+All custom styling lives in [assets/main.scss](assets/main.scss), in this order:
+
+1. `@font-face` rules for the fonts in `assets/fonts/`.
+2. Minima variables such as `$base-font-family` and `$base-font-size`. These must come **before** `@import "minima"`.
+3. `@import "minima"`.
+4. Custom rules that override the theme, such as `.profile-image` for the round photo on the About page. These must come **after** the import.
+
+Keep the empty `---` front matter lines at the top of the file. Jekyll only turns the file into CSS when they're there.
 
 ## Preview in GitHub Codespaces
 
