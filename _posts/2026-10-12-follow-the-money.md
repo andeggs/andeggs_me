@@ -53,3 +53,5 @@ Do we expect costs to go up or down \- and if so by how much? What are the facto
 For the service owner, this opens up an important strategic space that might not have been available before. They can begin to think over a longer horizon about how their service might evolve, what capabilities they may need to build and so on.
 
 For fee-paying services with dynamic demand, forecasting is essential for planning capacity (or being able to quickly increase it), fee levels and so on. This only makes sense when done for the whole service.
+
+![Illustrative chart of service costs](/assets/images/2026-10-13-forecast-chart.png){: .profile-image}
